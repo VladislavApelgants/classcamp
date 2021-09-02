@@ -1,0 +1,49 @@
+.header {
+  background-color: #ffffff;
+  color: #000000;
+
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
+}
+.header-container {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 15px 40px;
+}
+
+.header-title {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 32px;
+  line-height: 1.31;
+  color: #000000;
+}
+.nav-list {
+  display: flex;
+}
+.nav-item + .nav-item {
+  margin-left: 50px;
+}
+
+.nav-link {
+  padding: 15px 10px;
+}
+.contact {
+  text-align: center;
+  @media screen and (min-width: 1280px) {
+    display: flex;
+
+    .contact__item + .contact__item {
+      margin-left: 25px;
+    }
+  }
+}
+
+.contact__button {
+  background-color: transparent;
+  border: none;
+  padding: 15px 10px;
+}

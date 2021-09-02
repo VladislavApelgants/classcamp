@@ -1,0 +1,133 @@
+.header__mobile-title {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 32px;
+  line-height: 1.31;
+  color: #ffffff;
+}
+
+.mobile-panel {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  padding: 15px;
+
+  ::after {
+    content: '';
+    position: absolute;
+    height: 4px;
+    display: block;
+    width: 100%;
+
+    right: 0;
+    bottom: 0;
+    background-color: red;
+  }
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+}
+
+.btn-menu {
+  background-color: red;
+}
+.section-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 1.16;
+  margin-bottom: 16px;
+
+  letter-spacing: 2.88px;
+
+  color: #ffffff;
+
+  @media screen and (min-width: 480px) {
+    font-size: 36px;
+    line-height: 1.16;
+    margin-bottom: 20px;
+  }
+
+  @media screen and (min-width: 768px) {
+    font-size: 48px;
+    line-height: 1.16;
+    margin-bottom: 28px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    font-size: 63px;
+    line-height: 1.16;
+    margin-bottom: 44px;
+  }
+}
+
+.title-description {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.29;
+
+  text-align: center;
+  letter-spacing: 0.42px;
+  margin-bottom: 45px;
+
+  color: rgba(255, 255, 255, 0.7);
+
+  @media screen and (min-width: 480px) {
+    font-size: 20px;
+    line-height: 1.16;
+  }
+
+  @media screen and (min-width: 768px) {
+    font-size: 24px;
+    line-height: 1.16;
+  }
+
+  @media screen and (min-width: 1280px) {
+    font-size: 28px;
+    line-height: 1.16;
+  }
+}
+
+.main-button {
+  display: inline-block;
+  width: 140px;
+  height: 40px;
+  background: #ff4343;
+  border-radius: 8px;
+  text-align: center;
+  margin-bottom: 20px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: 0.42px;
+
+  color: #ffffff;
+
+  @media screen and (min-width: 480px) {
+    width: 180px;
+    height: 50px;
+    font-size: 18px;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 210px;
+    height: 55px;
+    font-size: 23px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    width: 250px;
+    height: 66px;
+  }
+}
+
+.tech {
+  text-align: center;
+}
